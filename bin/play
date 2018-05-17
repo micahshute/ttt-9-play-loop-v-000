@@ -6,5 +6,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
+9.times do 
+  turn(board)
+end
 
 # Make sure to execute #play below
